@@ -1,0 +1,35 @@
+/* ============================================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300;500&display=swap');
+/* =========================================== */
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    font-family:'Poppins';
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: center;
+}
+.container .inp-form{
+    display: flex;
+    flex-direction: column;
+}
+.container .inp-form input{
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+.container .inp-form button{
+  padding: 10px 15px;
+  border: none;
+  background-color:#1c65ee;
+  color: azure;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
